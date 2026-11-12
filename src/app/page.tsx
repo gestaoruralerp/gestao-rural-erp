@@ -99,6 +99,7 @@ export default function Home() {
                   </div>
                 ))}
               </div>
+
               <p className="mt-3 text-xs text-slate-500">
                 A contagem de 457 cabeças representa somente os animais informados até agora.
                 Bezerros e animais de recria ainda serão cadastrados.
@@ -109,6 +110,7 @@ export default function Home() {
               <h2 className="mb-4 text-lg font-bold text-slate-900">
                 Módulos de gestão
               </h2>
+
               <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
                 {modules.map((module) => (
                   <div key={module.name} className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
